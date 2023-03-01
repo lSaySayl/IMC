@@ -1,3 +1,5 @@
+//opción uno
+
 /* const btnCalcular = document.querySelector("#btnCalcular");
 
 const calcularImc = () => {
@@ -29,6 +31,8 @@ const calcularImc = () => {
 };
 
 btnCalcular.addEventListener("click", calcularImc); */
+
+//Opción dos
 
 
 let agregarInfo = () => {
@@ -66,7 +70,7 @@ let agregarInfo = () => {
       break;
 
     default:
-      alert(`Disculpe, no tenemos información para este el imc de ${calculoIMC.toFixed(2)}`)
+      alert(`Disculpe, no tenemos información para el imc de ${calculoIMC.toFixed(2)}`)
       break;
   }
 
